@@ -1,6 +1,6 @@
 package com.xxty.utils.utils;
 
-import com.github.wxiaoqi.security.common.context.BaseContextHandler;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -56,10 +56,10 @@ public class EntityUtils {
 		}
 
 		if (StringUtils.isBlank(name)) {
-			name = BaseContextHandler.getUsername();
+//			name = BaseContextHandler.getUsername();
 		}
 		if (StringUtils.isBlank(id)) {
-			id = BaseContextHandler.getUserId();
+//			id = BaseContextHandler.getUserId();
 		}
 
 		// 默认属性
@@ -97,10 +97,10 @@ public class EntityUtils {
 		}
 
 		if (StringUtils.isBlank(name)) {
-			name = BaseContextHandler.getUsername();
+//			name = BaseContextHandler.getUsername();
 		}
 		if (StringUtils.isBlank(id)) {
-			id = BaseContextHandler.getUserId();
+//			id = BaseContextHandler.getUserId();
 		}
 
 		// 默认属性

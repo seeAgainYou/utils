@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xxty</groupId>
-    <artifactId>utils</artifactId>
+    <artifactId>myutils</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>utils</name>
     <description>Demo project for Spring Boot</description>
@@ -46,6 +46,19 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.3.2</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.13</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+            <version>5.2.0</version>
+        </dependency>
+
 
     </dependencies>
 
